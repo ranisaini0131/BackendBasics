@@ -8,4 +8,6 @@
 => .env keeps all confidential data, fetched from syatem not files
 => -D or npm i --save-dev means used only in development,production me nhi jaega
 
-Fj908EoNv2HWZ6rL
+=> middlewares app.use() k through use hoti h
+=>body-parser express me included h
+=>cors allow us to seeting across cross origin resource sharing
