@@ -7,3 +7,5 @@
 
 => .env keeps all confidential data, fetched from syatem not files
 => -D or npm i --save-dev means used only in development,production me nhi jaega
+
+Fj908EoNv2HWZ6rL
