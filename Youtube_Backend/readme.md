@@ -20,3 +20,5 @@ It hashed our pasword
 => pre is a type of hook in mongoose which provides the functionality of performing some task just before the any defined opt, we can't use arrow func in pre, becuase "this" doesn't the context(userSchema) in arrow func, so we use regular func
 
 => JWT bearer token means whoever bears it we gives the access to them
+
+=>fs is file system, by default wit h node.js, no need to install, helps to read, write, remove in sync, async way
