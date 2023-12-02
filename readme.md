@@ -60,3 +60,72 @@ we can store images and pdf in mongodb as buffer, but it makes mongodb heavy and
 => Store Image in cloudinary => It's a third party softwar
 
 =>enum gives us choices
+
+**\*\*\*\***\***\*\*\*\***HTTP**\*\***\*\***\*\***
+
+=>HTTPS is Hyper Text Transfer Protocol, not encrypted
+
+=>HTTPS is Hyper Text Transfer Protocol Secure is encrypted and seure decrypted over server or client, in between not
+
+=> URL/URI/URN = Unified resource Locator, getting address to communicate
+
+=>HTTP is a type of protocol to communicate. various types like- srn, srv
+
+HTTP headers
+
+1. As we are sending HTTP request, some data also transferred claaed meta Data(file name, size, createdat) in key-value pairs
+
+2. req and res both has headers(metadata)
+
+Used in-
+
+=> Caching, authentication, state management
+=>Request Headers from Client
+=>Response Headers from server
+=>Representation Headers tells data is which encoding. compression
+=> Payload(data) Header
+
+Most common Headers
+-> Accept:application/json = this is mostly on server, represents that it accepts json type payloads(data), also accepts html/test
+
+=>User-Agent= it tells us,konsi application se request aae h, postman , browser(safari, chrome n all)
+
+=> Authorizations: Bearer <-token->(JWT TOKENS)
+
+=>Content-Type: sending Images/ PDF n all
+
+=> cookies= key-value pairs(login, logout)
+
+=>Cache-Control = after how much time the data will expire.
+
+\***\*\*\*\*\***CORS Type Headers
+=> Access-Control-Allow-Origin : origin from where we are allowed to send request
+=>Access-Control-Allow-Methods : methods that are allowed (GET, POST, PUT, DELETE)
+=>Access-Control-Allow-Credentials :
+
+\*\*\*\*Security headers
+=> Cross-Origin-Embedder-Policy
+=> Cross-Origin-Opener-Policy
+=> Content-Security-Policy
+=> X-XCS-Protection
+
+\***\*\*\*\*\*\*\***HTTP Methods
+
+=> Basic set of opt that can be used to interact with server
+
+1. GET: retrieve a resource
+2. HEAD: No message body(response headers only)
+   3.OPTIONS: what opt are avalaible
+3. TRACE: loopback test (get same data), trace proxies
+4. DELETE: remove resources
+5. PUT: replace the entire resource
+6. PATCH: replace the particular part of resource
+7. POST: interact with resource(add or create data)
+
+**\*\*\*\***HTTP Status Code
+
+=> 1xx = Informational
+=> 2xx = Success
+=> 3xx = Redirection
+=> 4xx = Client Error(user mistake)
+=> 5xx = Server Error(server mistake)

@@ -21,4 +21,13 @@ app.use(express.static("public"))//for storing pdf, files n images like data in 
 //cookieParser used to access, set the cookies of target's browser by our server, could perform crud opt on cookies
 app.use(cookiesParser())
 
+
+//routes import
+
+import userRouter from "./routes/user.routes.js"
+
+//routes declaration
+
+app.use('/api/v1/users', userRouter);
+
 export { app }
